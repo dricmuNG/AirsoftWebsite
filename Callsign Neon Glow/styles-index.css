@@ -1,0 +1,173 @@
+/*.wrap {
+
+    display: grid;
+    background: ddd;
+    height: 500px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(200px,300px));
+    grid-gap: 20px;
+    }
+    responsive stranica sa upotrebom query-ja*//*
+      @media (max-width:768px);
+      .wrapp {
+       
+        grid-template-columns: 1fr 1fr;
+        /*prilikom smanjenja ili sirenja prozora, kada smanjim ekran na 768 piksela, imacu dve kolone*//*
+      } 
+      @media (max-width: 576px);
+      .wrapp {
+
+        grid-template-columns: 1fr;
+      }
+
+
+
+    .item {
+    
+        text-align: center;
+        background-color: deepskyblue;
+    
+        }*/
+.header {
+  
+  border-bottom:2px solid;
+  color:#black;
+  background-color: #ffa200;
+  
+}
+
+.page {
+
+}
+.footer {
+}
+
+.column {
+
+  width:1000px;
+  margin:0px auto;
+
+}
+
+body {
+  margin:0px;
+  padding:0px;
+  background:url("images/backgrounds/hawaii-yel.jpg");
+  background-repeat: repeat;
+}
+
+.page .column {
+  height:100vh;
+
+}
+
+#logo-i-social {
+  display:flex;
+}
+
+#logo-holder {
+  flex-grow:1;
+}
+
+#social-holder {
+  flex-grow:1;
+  text-align:right;
+}
+
+#main-menu {
+  display:flex;
+  
+
+}
+
+#main-menu a {
+  flex-grow:1;
+  text-align:center;
+  display:block;
+  padding:10px 0;
+  text-decoration:none;
+  transition:400ms;
+  font-weight: bold;
+  color:white;
+}
+
+#main-menu a:hover, #main-menu a:active
+{
+  background:#ffe100; 
+color:black;
+  
+}
+
+#social-holder a img {
+  
+  width:48px;
+  height:48px;
+  margin:5px;
+  
+}
+
+#social-holder a {
+  text-decoration:none;
+  
+  
+}
+#logo-holder  img {
+  width:48px;
+  height:48px;
+  text-decoration:none;
+  margin:5px;
+  
+}
+
+#pocetna { 
+text-align:center;
+color:black;
+}
+
+#pocetna h1 {
+  font-size:40pt;
+  margin-top:0px;
+
+  font-weight: bold;
+}
+
+
+#promeniti{
+  margin-top: 50px;
+  height:320px;
+  width:580px;
+  border: 3px solid black;
+  background-color: #77777790;
+  padding:40px 207px;
+  cursor: pointer;
+}
+
+#promeniti img{
+
+}
+
+.column-data{
+  border: 3px solid black;
+  background-color: #66666690;
+  font-family: Arial Black;
+  padding: 20px;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+
+.column-title{
+
+}
+
+.column-par{
+
+}
+
+#forma{
+  font-family: Arial Black;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+
+#unos{
+  text-align:right;
+  margin-right:247.5px;
+}
